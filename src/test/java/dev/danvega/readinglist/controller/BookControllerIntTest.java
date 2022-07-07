@@ -53,12 +53,6 @@ class BookControllerIntTest {
 //            .withEnv("POSTGRES_PASSWORD","password")
 //            .withEnv("POSTGRES_DB","reading_list");
 
-//    @BeforeAll
-//    static void beforeAll() {
-//        System.out.println(db.getMappedPort(5432));
-//        db.start();
-//    }
-
 //    @DynamicPropertySource
 //    static void configure(DynamicPropertyRegistry registry) {
 //        registry.add("spring.datasource.url",() -> {
